@@ -36,5 +36,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo password variable is : ${{ vars.PASSWORD_DEV }}
+          echo environment  variable is : ${{ vars.PASSWORD_DEV }}
+          echo repo variable is : ${{ vars.ALL }}
+          
 
